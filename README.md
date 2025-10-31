@@ -29,16 +29,16 @@ weather_sql_project/
 
 #### Setup Instructions
 
-Clone the repository:
-git clone <your-repo-url>
-cd weather_sql_project
-Install dependencies:
-pip install -r requirements.txt
-Set up your OpenWeatherMap API key:
-API_KEY=your_openweathermap_api_key
-Run the project:
-python main.py
-This will:
-Fetch weather data for the predefined cities.
-Insert the data into weather.db.
-Perform analysis and display visualizations.
+##### Clone the repository:
+- git clone <your-repo-url>
+- cd weather_sql_project
+##### Install dependencies:
+- pip install -r requirements.txt
+- Set up your OpenWeatherMap API key:
+- API_KEY=your_openweathermap_api_key
+- Run the project:
+- python main.py
+##### This will:
+- Fetch weather data for the predefined cities.
+- Insert the data into weather.db.
+- Perform analysis and display visualizations.
