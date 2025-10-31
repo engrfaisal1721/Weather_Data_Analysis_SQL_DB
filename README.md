@@ -16,7 +16,7 @@ This project retrieves current weather data for multiple cities using the OpenWe
 
 #### Project Structure
 
-weather_sql_project/
+```<pre>weather_sql_project/
 ├── data/
 │   └── weather.db             # SQLite database storing weather data
 ├── fetch_weather.py           # Script to fetch data from OpenWeatherMap API
@@ -24,7 +24,7 @@ weather_sql_project/
 ├── analysis.py                # Functions for data analysis and visualization
 ├── main.ipynb                 # Main script to run the project                   # File storing your API key
 ├── requirements.txt           # Python dependencies
-└── README.md
+└── README.md<pre>```
 
 #### Setup Instructions
 
@@ -33,24 +33,13 @@ Clone the repository:
 git clone <your-repo-url>
 cd weather_sql_project
 
-
 Install dependencies:
-
 pip install -r requirements.txt
-
 Set up your OpenWeatherMap API key:
-
 API_KEY=your_openweathermap_api_key
-
-
 Run the project:
-
 python main.py
-
 This will:
-
 Fetch weather data for the predefined cities.
-
 Insert the data into weather.db.
-
 Perform analysis and display visualizations.
