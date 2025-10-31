@@ -15,8 +15,8 @@ This project retrieves current weather data for multiple cities using the OpenWe
 - Visualize results using Matplotlib and Seaborn.
 
 #### Project Structure
-
-```weather_sql_project/
+```
+weather_sql_project/
 ├── data/
 │   └── weather.db             # SQLite database storing weather data
 ├── fetch_weather.py           # Script to fetch data from OpenWeatherMap API
@@ -24,15 +24,14 @@ This project retrieves current weather data for multiple cities using the OpenWe
 ├── analysis.py                # Functions for data analysis and visualization
 ├── main.ipynb                 # Main script to run the project                   # File storing your API key
 ├── requirements.txt           # Python dependencies
-└── README.md ```
+└── README.md 
+```
 
 #### Setup Instructions
 
 Clone the repository:
-
 git clone <your-repo-url>
 cd weather_sql_project
-
 Install dependencies:
 pip install -r requirements.txt
 Set up your OpenWeatherMap API key:
