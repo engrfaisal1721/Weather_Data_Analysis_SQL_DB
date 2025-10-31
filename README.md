@@ -16,7 +16,7 @@ This project retrieves current weather data for multiple cities using the OpenWe
 
 #### Project Structure
 
-```<pre>weather_sql_project/
+```weather_sql_project/
 ├── data/
 │   └── weather.db             # SQLite database storing weather data
 ├── fetch_weather.py           # Script to fetch data from OpenWeatherMap API
@@ -24,7 +24,7 @@ This project retrieves current weather data for multiple cities using the OpenWe
 ├── analysis.py                # Functions for data analysis and visualization
 ├── main.ipynb                 # Main script to run the project                   # File storing your API key
 ├── requirements.txt           # Python dependencies
-└── README.md<pre>```
+└── README.md ```
 
 #### Setup Instructions
 
